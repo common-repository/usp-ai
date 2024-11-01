@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "usp-ai-create-block-image/uspai-generate-image",
+  "version": "0.1.0",
+  "title": "AI Image - USP.ai",
+  "category": "media",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "uspai",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "aiGeneratedImageUrl": {
+      "type": "string",
+      "default": null
+    },
+    "attachment_id": {
+      "type": "number",
+      "default": null
+    },
+    "imageAltText": {
+      "type": "string",
+      "default": null
+    }
+  }
+}
